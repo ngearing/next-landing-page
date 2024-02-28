@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { SocialIcon } from "react-social-icons";
 
 export default function Header() {
@@ -8,12 +9,14 @@ export default function Header() {
 			className="text-black flex items-center justify-between p-4 px-8"
 		>
 			<div className="site-branding">
-				<Image
-					alt="The little shrub Logo"
-					src="/logo-green.png"
-					width={64}
-					height={64}
-				/>
+				<Link href="/">
+					<Image
+						alt="The lucky shrub Logo"
+						src="/logo-green.png"
+						width={64}
+						height={64}
+					/>
+				</Link>
 			</div>
 			<div className="site-socials flex">
 				<SocialIcon
