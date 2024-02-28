@@ -1,17 +1,32 @@
+import Image from "next/image";
+import { SocialIcon } from "react-social-icons";
+
 export default function Header() {
 	return (
-		<header className="bg-white text-black flex items-center justify-between p-24">
-			<div className="site-branding">Logo</div>
-			<div className="site-socials flex gap-2">
-				<a className="social-link" href="#">
-					Facebook
-				</a>
-				<a className="social-link" href="#">
-					Twitter
-				</a>
-				<a className="social-link" href="#">
-					Instagram
-				</a>
+		<header
+			style={{ backgroundColor: "rgb(206, 214, 171)" }}
+			className="text-black flex items-center justify-between p-4 px-8"
+		>
+			<div className="site-branding">
+				<Image
+					alt="The little shrub Logo"
+					src="/logo-green.png"
+					width={64}
+					height={64}
+				/>
+			</div>
+			<div className="site-socials flex">
+				<SocialIcon
+					bgColor="transparent"
+					fgColor="black"
+					url="www.facebook.com"
+				/>
+				<SocialIcon
+					bgColor="transparent"
+					fgColor="black"
+					url="www.instagram.com"
+				/>
+				<SocialIcon bgColor="transparent" fgColor="black" url="www.x.com" />
 			</div>
 		</header>
 	);
