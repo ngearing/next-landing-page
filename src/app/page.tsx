@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
 	return (
 		<main>
-			<section className="cta p-12 bg-slate-300 text-black">
+			<section className="cta p-12 bg-secondary text-black">
 				<h2 className="text-5xl font-bold mb-8">
 					Transform Your <span className="block">Outdoor Space</span>
 				</h2>
@@ -15,18 +15,142 @@ export default function Home() {
 
 				<a
 					href="#"
-					className="btn inline-block rounded font-bold my-8 p-2 px-4 bg-green-800 text-white"
+					className="btn inline-block rounded font-bold my-8 p-2 px-4 bg-secondary2 text-white"
 				>
 					Learn More
 				</a>
 			</section>
 
-			<section className="about-us p-12 bg-white text-black ">
+			<section className="about-us p-12 bg-primary2 text-black ">
 				<h2 className="text-4xl mb-8 font-bold">About us</h2>
-				<p>About us</p>
+				<p>
+					Welcome to The Lucky Shrub, a leading landscaping company
+					based in Arizona, Usa. With our expertise and passion for
+					creating beautiful outdoor spaces, we strive to transform
+					ordinary landscapes into extraordinary works of art.
+				</p>
+				<p>
+					At The Lucky Shrub, we understand the importance of a
+					well-maintained and visually appealing landscape. Our team
+					of skilled professionals is dedicated to providing top-notch
+					landscaping services tailored to meet the unique needs and
+					preferences of our clients. Whether it's designing a
+					stunning garden, installing irrigation systems, or
+					maintaining existing landscapes, we take pride in delivering
+					exceptional results that exceed expectations.
+				</p>
 			</section>
 
-			<div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
+			<section className="services p-8 bg-primary text-black">
+				<h2 className="text-center">Services</h2>
+
+				<div className="mb-32  grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
+					<a
+						href="#"
+						className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<Image
+							className="rounded"
+							alt="Lawn services image"
+							src={"/mockup.jpg"}
+							width={280}
+							height={140}
+						></Image>
+						<h2 className="mt-3 text-2xl text-center font-semibold">
+							Lawn Mowing and Trimming
+						</h2>
+					</a>
+					<a
+						href="#"
+						className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<Image
+							className="rounded"
+							alt="Lawn services image"
+							src={"/mockup.jpg"}
+							width={280}
+							height={140}
+						></Image>
+						<h2 className="mt-3 text-2xl text-center font-semibold">
+							Lawn Mowing and Trimming
+						</h2>
+					</a>
+					<a
+						href="#"
+						className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<Image
+							className="rounded"
+							alt="Lawn services image"
+							src={"/mockup.jpg"}
+							width={280}
+							height={140}
+						></Image>
+						<h2 className="mt-3 text-2xl text-center font-semibold">
+							Lawn Mowing and Trimming
+						</h2>
+					</a>
+					<a
+						href="#"
+						className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<Image
+							className="rounded"
+							alt="Lawn services image"
+							src={"/mockup.jpg"}
+							width={280}
+							height={140}
+						></Image>
+						<h2 className="mt-3 text-2xl text-center font-semibold">
+							Lawn Mowing and Trimming
+						</h2>
+					</a>
+					<a
+						href="#"
+						className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<Image
+							className="rounded"
+							alt="Lawn services image"
+							src={"/mockup.jpg"}
+							width={280}
+							height={140}
+						></Image>
+						<h2 className="mt-3 text-2xl text-center font-semibold">
+							Lawn Mowing and Trimming
+						</h2>
+					</a>
+					<a
+						href="#"
+						className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<Image
+							className="rounded"
+							alt="Lawn services image"
+							src={"/mockup.jpg"}
+							width={280}
+							height={140}
+						></Image>
+						<h2 className="mt-3 text-2xl text-center font-semibold">
+							Lawn Mowing and Trimming
+						</h2>
+					</a>
+				</div>
+			</section>
+
+			<div className="z-10  max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
 				<p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
 					Get started by editing&nbsp;
 					<code className="font-mono font-bold">

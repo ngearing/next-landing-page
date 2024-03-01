@@ -4,10 +4,7 @@ import { SocialIcon } from "react-social-icons";
 
 export default function Header() {
 	return (
-		<header
-			style={{ backgroundColor: "rgb(206, 214, 171)" }}
-			className="text-black flex items-center justify-between p-4 px-8"
-		>
+		<header className="text-black bg-secondary flex items-center justify-between p-4 px-8">
 			<div className="site-branding">
 				<Link href="/">
 					<Image
@@ -29,7 +26,11 @@ export default function Header() {
 					fgColor="black"
 					url="www.instagram.com"
 				/>
-				<SocialIcon bgColor="transparent" fgColor="black" url="www.x.com" />
+				<SocialIcon
+					bgColor="transparent"
+					fgColor="black"
+					url="www.x.com"
+				/>
 			</div>
 		</header>
 	);
