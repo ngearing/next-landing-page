@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
 	return (
 		<main>
-			<section className="cta p-12 bg-secondary text-black">
+			<section className="cta p-12 bg-secondary text-black ">
 				<h2 className="text-5xl font-bold mb-8">
 					Transform Your <span className="block">Outdoor Space</span>
 				</h2>
@@ -21,27 +21,10 @@ export default function Home() {
 				</a>
 			</section>
 
-			<section className="about-us p-12 bg-primary2 text-black ">
-				<h2 className="text-4xl mb-8 font-bold">About us</h2>
-				<p>
-					Welcome to The Lucky Shrub, a leading landscaping company
-					based in Arizona, Usa. With our expertise and passion for
-					creating beautiful outdoor spaces, we strive to transform
-					ordinary landscapes into extraordinary works of art.
-				</p>
-				<p>
-					At The Lucky Shrub, we understand the importance of a
-					well-maintained and visually appealing landscape. Our team
-					of skilled professionals is dedicated to providing top-notch
-					landscaping services tailored to meet the unique needs and
-					preferences of our clients. Whether it's designing a
-					stunning garden, installing irrigation systems, or
-					maintaining existing landscapes, we take pride in delivering
-					exceptional results that exceed expectations.
-				</p>
-			</section>
-
-			<section className="services p-8 bg-primary text-black">
+			<section
+				className="services p-8 bg-primary text-black"
+				id="services"
+			>
 				<h2 className="text-center">Services</h2>
 
 				<div className="mb-32  grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
@@ -147,6 +130,37 @@ export default function Home() {
 							Lawn Mowing and Trimming
 						</h2>
 					</a>
+				</div>
+			</section>
+
+			<section
+				className="about-us p-12 bg-primary2 text-black "
+				id="about"
+			>
+				<h2 className="text-4xl mb-8 font-bold">About us</h2>
+				<p>
+					Welcome to The Lucky Shrub, a leading landscaping company
+					based in Arizona, Usa. With our expertise and passion for
+					creating beautiful outdoor spaces, we strive to transform
+					ordinary landscapes into extraordinary works of art.
+				</p>
+				<p>
+					At The Lucky Shrub, we understand the importance of a
+					well-maintained and visually appealing landscape. Our team
+					of skilled professionals is dedicated to providing top-notch
+					landscaping services tailored to meet the unique needs and
+					preferences of our clients. Whether it's designing a
+					stunning garden, installing irrigation systems, or
+					maintaining existing landscapes, we take pride in delivering
+					exceptional results that exceed expectations.
+				</p>
+			</section>
+
+			<section className="contact-us" id="contact">
+				<form action=""></form>
+				<div className="contact-text">
+					<h4>Get in touch</h4>
+					<p>Contact us today to discuss your project.</p>
 				</div>
 			</section>
 
