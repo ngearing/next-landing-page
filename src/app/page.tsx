@@ -25,9 +25,11 @@ export default function Home() {
 				className="services p-8 bg-primary text-black"
 				id="services"
 			>
-				<h2 className="text-center">Services</h2>
+				<h2 className="text-center text-4xl mb-8 font-bold">
+					Services
+				</h2>
 
-				<div className="mb-32  grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
+				<div className="mb-32 grid align-middle justify-center text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
 					<a
 						href="#"
 						className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -37,13 +39,13 @@ export default function Home() {
 						<Image
 							className="rounded"
 							alt="Lawn services image"
-							src={"/mockup.jpg"}
+							src={"/lawn.jpg"}
 							width={280}
 							height={140}
 						></Image>
-						<h2 className="mt-3 text-2xl text-center font-semibold">
+						<h3 className="mt-3 text-2xl text-center font-semibold">
 							Lawn Mowing and Trimming
-						</h2>
+						</h3>
 					</a>
 					<a
 						href="#"
@@ -53,14 +55,14 @@ export default function Home() {
 					>
 						<Image
 							className="rounded"
-							alt="Lawn services image"
-							src={"/mockup.jpg"}
+							alt="Tree care image"
+							src={"/tree.jpg"}
 							width={280}
 							height={140}
 						></Image>
-						<h2 className="mt-3 text-2xl text-center font-semibold">
-							Lawn Mowing and Trimming
-						</h2>
+						<h3 className="mt-3 text-2xl text-center font-semibold">
+							Tree Care and Maintenance
+						</h3>
 					</a>
 					<a
 						href="#"
@@ -70,65 +72,14 @@ export default function Home() {
 					>
 						<Image
 							className="rounded"
-							alt="Lawn services image"
-							src={"/mockup.jpg"}
+							alt="Hardscape installation image"
+							src={"/hard.jpg"}
 							width={280}
 							height={140}
 						></Image>
-						<h2 className="mt-3 text-2xl text-center font-semibold">
-							Lawn Mowing and Trimming
-						</h2>
-					</a>
-					<a
-						href="#"
-						className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<Image
-							className="rounded"
-							alt="Lawn services image"
-							src={"/mockup.jpg"}
-							width={280}
-							height={140}
-						></Image>
-						<h2 className="mt-3 text-2xl text-center font-semibold">
-							Lawn Mowing and Trimming
-						</h2>
-					</a>
-					<a
-						href="#"
-						className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<Image
-							className="rounded"
-							alt="Lawn services image"
-							src={"/mockup.jpg"}
-							width={280}
-							height={140}
-						></Image>
-						<h2 className="mt-3 text-2xl text-center font-semibold">
-							Lawn Mowing and Trimming
-						</h2>
-					</a>
-					<a
-						href="#"
-						className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<Image
-							className="rounded"
-							alt="Lawn services image"
-							src={"/mockup.jpg"}
-							width={280}
-							height={140}
-						></Image>
-						<h2 className="mt-3 text-2xl text-center font-semibold">
-							Lawn Mowing and Trimming
-						</h2>
+						<h3 className="mt-3 text-2xl text-center font-semibold">
+							Hardscape Design and Installation
+						</h3>
 					</a>
 				</div>
 			</section>
